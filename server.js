@@ -1,8 +1,14 @@
 var express=require('express')
+var fs=require('fs')
 var app=express()
 var monthNames = ["January", "February", "March", "April", "May", "June",
   "July", "August", "September", "October", "November", "December"
 ];
+app.get('/',function(req,res){
+    res.writeHead(200,{'content-type':'text/plain'})
+    var src=fs.createReadStream('readme.md');
+    src.pipe(res);
+})
 app.get('/:time',function(req,res){
   var time=req.params.time;
   var unix_time=parseInt(time,10);
