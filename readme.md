@@ -8,6 +8,9 @@ Example output:
 { "unix": 1450137600, "natural": "December 15, 2015" }
 
 1)git clone https://github.com/sourav2029/Timestamp-Microservice.git
+
 2)move inside the directory
+
 3)node server.js
+
 4)localhost:3000/December 15, 2015
