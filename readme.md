@@ -14,9 +14,13 @@ Example output:
 3)node server.js
 
 Example url: if you want to run it locally on your system
+
 http://localhost:3000/dec 20, 2014
+
 http://localhost:3000/1419013800000
 
 Example url if you want to test my aap
+
 https://tstamp-miniservice.herokuapp.com/dec 20, 2014
+
 https://tstamp-miniservice.herokuapp.com/1419013800000
