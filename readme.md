@@ -7,7 +7,7 @@ User stories:
 Sample output:
 { "unix": 1450137600, "natural": "December 15, 2015" }
 
-Local Setup Instructions:  
+## Local Setup Instructions:  
 1)git clone https://github.com/sourav2029/Timestamp-Microservice.git  
 2)move inside the directory  
 3)node server.js  
